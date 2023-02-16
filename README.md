@@ -6,5 +6,5 @@
 - [x] install axios
 - [x] fetch API
 - [x] add catching error
-- [x] add hooks repository
+- [x] add hooks folder
 - [ ]
