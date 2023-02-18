@@ -42,7 +42,7 @@ export function CreateProduct({onCreate}: CreateProductProps) {
         <form onSubmit={submitHandler}>
             <input 
             type='text'
-            className='py-2 px-4 mb-2 border w-full outline-0'
+            className='py-2 px-4 mb-2 border w-full outline-none text-gray-800'
             placeholder='Please add your product here'
             value={value}
             onChange={event => setValue(event.target.value)}
@@ -52,7 +52,7 @@ export function CreateProduct({onCreate}: CreateProductProps) {
 
             <button 
             type='submit' 
-            className='py-2 px-4 mb-2 bg-sky-800 text-white hover:bg-lime-800'
+            className='py-2 px-4 mb-2 bg-sky-800 text-white bg-rose-200 hover:text-red-800'
             >
                 Create
             </button>

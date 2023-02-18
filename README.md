@@ -10,4 +10,4 @@
 - [x] add new components: Loader, ErrorMsg, Modal, CreateProduct
 - [x] add 'new product' functionality
 - [x] create Context
-- [ ]
+- [x] create Routing & Navigation

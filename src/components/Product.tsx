@@ -4,19 +4,18 @@ import { MyProduct } from '../models'
 interface ProductProps {
     product: MyProduct
 }
-// параметр product типа MyProduct
 
 export function Product({ product }: ProductProps) {
     const [details, setDetails] = useState(false)
-    const btnColor = details ? 'bg-rose-700 text-rose-100' : 'bg-lime-700 text-green-100'
-    const btnColors = ['py-2 px-4 border rounded', btnColor]
+    const btnColor = details ? 'bg-rose-200 hover:text-rose-900' : 'bg-teal-200 hover:text-teal-900'
+    const btnColors = ['py-2 px-4 border rounded text-white', btnColor]
 
     return (
         <div 
-            className='border py-2 px-4 rounded flex flex-col items-center mb-2'
+            className='border py-2 px-4 rounded flex flex-col items-center mb-2 text-gray-800'
             >
-            <img src={ product.image } className='w-1/6' alt={product.title} />
-            <p>{ product.title }</p>
+            <img src={product.image} className='w-1/6' alt={product.title} />
+            <p>{product.title}</p>
             <p className='font-bold'>{product.price}</p>
 
             <button 
