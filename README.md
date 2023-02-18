@@ -6,6 +6,8 @@
 - [x] install axios
 - [x] fetch API
 - [x] add catching error
-- [x] add hooks folder
+- [x] create one folder for all hooks
 - [x] add new components: Loader, ErrorMsg, Modal, CreateProduct
 - [x] add 'new product' functionality
+- [x] create Context
+
