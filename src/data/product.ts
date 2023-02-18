@@ -26,4 +26,3 @@ export const products: MyProduct[] = [
         }
     }
 ]
-// массив products типа MyProduct (который тожн массив)

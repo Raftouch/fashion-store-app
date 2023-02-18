@@ -9,4 +9,3 @@
 - [x] add hooks folder
 - [x] add new components: Loader, ErrorMsg, Modal, CreateProduct
 - [x] add 'new product' functionality
-
