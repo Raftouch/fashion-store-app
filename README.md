@@ -1,10 +1,11 @@
 - [x] create-react-app --template typescrypt 
 - [x] install tailwind
-- [x] add components
+- [x] add component Product
 - [x] add data
 - [x] create models
 - [x] install axios
 - [x] fetch API
 - [x] add catching error
 - [x] add hooks folder
+- [x] add new components: Loader, ErrorMsg, Modal, CreateProduct
 - [ ]
