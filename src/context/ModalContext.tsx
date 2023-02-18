@@ -18,8 +18,8 @@ export const ModalState = ({children}: {children: React.ReactNode}) => {
     const close = () => setModal(false)
 
     return (
-        <ModalContext.Provider value={{modal, open, close}}>
-            {children}
+        <ModalContext.Provider value={{ modal, open, close }}>
+            { children }
         </ModalContext.Provider>
     )
 }
