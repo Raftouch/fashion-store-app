@@ -8,7 +8,7 @@ interface ProductProps {
 
 export function Product({ product }: ProductProps) {
     const [details, setDetails] = useState(false)
-    const btnColor = details ? 'bg-red-400' : 'bg-green-400'
+    const btnColor = details ? 'bg-rose-700 text-rose-100' : 'bg-lime-700 text-green-100'
     const btnColors = ['py-2 px-4 border rounded', btnColor]
 
     return (
